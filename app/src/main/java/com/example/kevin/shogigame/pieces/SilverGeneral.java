@@ -16,11 +16,6 @@ public class SilverGeneral extends Piece{
     }
 
     @Override
-    public String type() {
-        return "Silver General";
-    }
-
-    @Override
     public Piece copy() {
         return new SilverGeneral(isWhite(), getGame(), getLocation().copy());
     }
@@ -61,10 +56,5 @@ public class SilverGeneral extends Piece{
             }
         }
         return locs;
-    }
-
-    @Override
-    public char toFEN() {
-        return isWhite() ? 'S' : 's';
     }
 }

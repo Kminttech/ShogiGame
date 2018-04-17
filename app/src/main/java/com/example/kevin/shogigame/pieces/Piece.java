@@ -108,16 +108,6 @@ public abstract class Piece {
 	}
 	
 	/**
-	 * @return A short, two-character String describing this piece briefly.
-	 */
-	public String getPieceCode() {
-		StringBuilder sb = new StringBuilder(2);
-		sb.append(isWhite() ? 'w' : 'b');
-		sb.append(Character.toUpperCase(toFEN()));
-		return sb.toString();
-	}
-	
-	/**
 	 * @return True if this is a white piece; false if it is black.
 	 */
 	public boolean isWhite() {
@@ -132,13 +122,6 @@ public abstract class Piece {
 	public void setLocation(Location loc) {
 		location = loc;
 	}
-
-	/**
-	 * @return The FEN abbreviation for this piece.
-	 */
-	public abstract char toFEN();
-
-	public abstract String type();
 	
 	@Override
 	public String toString() {

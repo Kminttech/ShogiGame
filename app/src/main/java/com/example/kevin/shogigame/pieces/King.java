@@ -22,16 +22,6 @@ public class King extends Piece {
 	}
 	
 	@Override
-	public char toFEN() {
-		return isWhite() ? 'K' : 'k';
-	}
-
-	@Override
-	public String type() {
-		return "King";
-	}
-	
-	@Override
 	public Piece copy() {
 		return new King(isWhite(), getGame(), getLocation().copy());
 	}

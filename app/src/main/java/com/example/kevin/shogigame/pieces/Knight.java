@@ -22,16 +22,6 @@ public class Knight extends Piece {
 	public Piece copy() {
 		return new Knight(isWhite(), getGame(), getLocation().copy());
 	}
-	
-	@Override
-	public char toFEN() {
-		return isWhite() ? 'N' : 'n';
-	}
-
-	@Override
-	public String type() {
-		return "Knight";
-	}
 
 	@Override
 	public ArrayList<Location> getAttackedLocations() {

@@ -1,7 +1,7 @@
 package com.example.kevin.shogigame.grid;
 
 /**
- * Represents a location on a chessboard. 
+ * Represents a location on a board.
  * @author Kevin
  */
 public class Location {
@@ -69,7 +69,7 @@ public class Location {
 				throw new IllegalArgumentException("" + direction + " is not a" + " multiple of 45 degrees.");
 		}
 	}
-	
+
 	/**
 	 * @return The column number of this location.
 	 */

@@ -20,11 +20,6 @@ public class GoldGeneral extends Piece {
     }
 
     @Override
-    public String type() {
-        return "Gold General";
-    }
-
-    @Override
     public Piece copy() {
         GoldGeneral g = new GoldGeneral(isWhite(), getGame(), getLocation().copy());
         return g;
@@ -53,7 +48,4 @@ public class GoldGeneral extends Piece {
         }
         return locs;
     }
-
-    @Override
-    public char toFEN() { return isWhite() ? 'G' : 'g';}
 }

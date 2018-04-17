@@ -18,11 +18,6 @@ public class Pawn extends Piece {
 		super(isWhite, game, loc);
 		promoted = false;
 	}
-
-	@Override
-	public String type() {
-		return "Pawn";
-	}
 	
 	@Override
 	public Piece copy() {
@@ -59,11 +54,6 @@ public class Pawn extends Piece {
 			}
 		}
 		return locs;
-	}
-	
-	@Override
-	public char toFEN() {
-		return isWhite() ? 'P' : 'p';
 	}
 	
 	private void overrideLocation(Location loc) {

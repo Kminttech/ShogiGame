@@ -21,16 +21,6 @@ public class Bishop extends Piece {
 	public Piece copy() {
 		return new Bishop(isWhite(), getGame(), getLocation().copy());
 	}
-	
-	@Override
-	public char toFEN() {
-		return isWhite() ? 'B' : 'b';
-	}
-
-	@Override
-	public String type() {
-		return "Bishop";
-	}
 
 	@Override
 	public ArrayList<Location> getAttackedLocations() {

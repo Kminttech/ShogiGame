@@ -17,11 +17,6 @@ public class Rook extends Piece {
 		super(isWhite, game, location);
 		promoted = false;
 	}
-
-	@Override
-	public String type() {
-		return "Rook";
-	}
 	
 	@Override
 	public Piece copy() {
@@ -49,10 +44,5 @@ public class Rook extends Piece {
 			}
 		}
 		return locs;
-	}
-
-	@Override
-	public char toFEN() {
-		return isWhite() ? 'R' : 'r';
 	}
 }

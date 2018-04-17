@@ -16,20 +16,10 @@ public class Lance extends Piece {
 		super(isWhite, game, location);
 		promoted = false;
 	}
-
-	@Override
-	public String type() {
-		return "Lance";
-	}
 	
 	@Override
 	public Piece copy() {
 		return new Lance(isWhite(), getGame(), getLocation().copy());
-	}
-	
-	@Override
-	public char toFEN() {
-		return isWhite() ? 'L' : 'l';
 	}
 
 	@Override
