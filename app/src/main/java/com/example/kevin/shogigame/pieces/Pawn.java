@@ -10,7 +10,7 @@ import java.util.ArrayList;
 /**
  * They can move one space forward.
  * Promotion to move like Gold General
- * @author Kevin
+ * @author Kevin Minter
  */
 public class Pawn extends Piece {
 

@@ -12,7 +12,7 @@ import java.util.Iterator;
 /**
  * The King is able to move one space in any direction
  * The loss of the king is the loss of the game
- * @author Kevin
+ * @author Kevin Minter
  */
 public class King extends Piece {
 

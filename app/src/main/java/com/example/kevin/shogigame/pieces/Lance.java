@@ -8,7 +8,7 @@ import java.util.ArrayList;
 /**
  * The lance is able to move in a straight line
  * Promotion to move like Gold General
- * @author Kevin
+ * @author Kevin Minter
  */
 public class Lance extends Piece {
 

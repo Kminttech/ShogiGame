@@ -23,7 +23,7 @@ import java.util.Map.Entry;
 
 /**
  * Manages the user interface and the back-end.
- * @author Kevin
+ * @author Kevin Minter
  */
 public class Game {
     // Pieces and grid information

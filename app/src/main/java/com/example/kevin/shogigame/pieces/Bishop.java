@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 /**
  * Bishops move along diagonals and single spaces vertially when promoted
- * @author Kevin
+ * @author Kevin Minter
  */
 public class Bishop extends Piece {
 

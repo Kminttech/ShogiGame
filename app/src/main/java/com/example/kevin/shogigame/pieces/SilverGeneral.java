@@ -6,7 +6,8 @@ import com.example.kevin.shogigame.grid.Location;
 import java.util.ArrayList;
 
 /**
- * Created by Kevin on 4/20/2016.
+ *
+ * @author Kevin Minter
  */
 public class SilverGeneral extends Piece{
 

@@ -10,7 +10,7 @@ import java.util.Iterator;
 
 /**
  *
- * @author Kevin
+ * @author Kevin Minter
  */
 public class GoldGeneral extends Piece {
 

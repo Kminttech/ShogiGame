@@ -9,7 +9,7 @@ import java.util.ArrayList;
 /**
  * The knight moves forward 2 and over one left or right
  * Promotion to move like Gold General
- * @author Kevin
+ * @author Kevin Minter
  */
 public class Knight extends Piece {
 

@@ -10,8 +10,8 @@ import java.util.HashSet;
 import java.util.Iterator;
 
 /**
- * Represents a chess piece or pawn.
- * @author Kevin
+ * Represents a shogi piece.
+ * @author Kevin Minter
  */
 public abstract class Piece {
 	private boolean color;

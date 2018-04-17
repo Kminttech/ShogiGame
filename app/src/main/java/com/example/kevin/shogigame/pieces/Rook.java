@@ -9,7 +9,7 @@ import java.util.ArrayList;
 /**
  * Rooks can move in any direction vertically or horizontally
  * Promoted rooks can move diagnolly a single space as well
- * @author Kevin
+ * @author Kevin Minter
  */
 public class Rook extends Piece {
 
