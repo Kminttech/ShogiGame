@@ -17,9 +17,9 @@ import java.util.Iterator;
 public class King extends Piece {
 
 	public King(boolean isWhite, Game game, Location location) {
-		super(isWhite, game, location);
-		promoted = true;
-	}
+        super(isWhite, game, location);
+        promoted = true;
+    }
 	
 	@Override
 	public Piece copy() {

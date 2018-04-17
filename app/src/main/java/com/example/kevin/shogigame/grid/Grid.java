@@ -2,7 +2,7 @@ package com.example.kevin.shogigame.grid;
 
 /**
  * Represents a grid made of locations that can hold arbitrary objects. 
- * @author Kevin
+ * @author Kevin Minter
  * @param <E> The type of object to place on the grid.
  */
 public interface Grid<E> {

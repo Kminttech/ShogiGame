@@ -5,7 +5,7 @@ import com.example.kevin.shogigame.grid.Location;
 
 /**
  * Represents a move on a chessboard.
- * @author Kevin
+ * @author Kevin Minter
  */
 public class Move {
 	private Location src, dest;
@@ -54,4 +54,4 @@ public class Move {
 	public int hashCode(){
 		return src.hashCode() + dest.hashCode();
 	}
-} 
+}

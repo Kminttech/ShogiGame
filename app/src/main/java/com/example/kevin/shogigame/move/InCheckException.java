@@ -5,7 +5,7 @@ import java.util.HashSet;
 
 /**
  * Indicates that a move must be made to get out of check.
- * @author Kevin
+ * @author Kevin Minter
  */
 public class InCheckException extends RuntimeException {
     private static final long serialVersionUID = 1L;

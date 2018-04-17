@@ -8,7 +8,7 @@ import java.util.Set;
 
 /**
  * Represents an 9x9 shogiboard, made of locations that hold Shogi pieces.
- * @author Kevin
+ * @author Kevin Minter
  */
 public class ShogiBoard implements Grid<Piece> {
 	private HashMap<Location, Piece> map;

@@ -5,7 +5,7 @@ import com.example.kevin.shogigame.grid.Location;
 
 /**
  * Indicates that a given location is not valid.
- * @author Kevin
+ * @author Kevin Minter
  */
 public class InvalidLocationException extends RuntimeException {
 	private static final long serialVersionUID = 1L;

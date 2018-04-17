@@ -9,7 +9,6 @@ import java.util.HashSet;
 import java.util.Iterator;
 
 /**
- *
  * @author Kevin Minter
  */
 public class GoldGeneral extends Piece {

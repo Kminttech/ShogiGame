@@ -7,7 +7,7 @@ import com.example.kevin.shogigame.pieces.Piece;
 /**
  * Indicates that something has attempted to move a piece in an illegal or
  * invalid way.
- * @author Kevin
+ * @author Kevin Minter
  */
 public class IllegalMoveException extends RuntimeException {
 	private static final long serialVersionUID = 1L;

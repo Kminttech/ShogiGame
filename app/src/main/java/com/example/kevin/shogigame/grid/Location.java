@@ -2,7 +2,7 @@ package com.example.kevin.shogigame.grid;
 
 /**
  * Represents a location on a board.
- * @author Kevin
+ * @author Kevin Minter
  */
 public class Location {
 	private int rank, file;
