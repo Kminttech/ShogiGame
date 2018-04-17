@@ -6,46 +6,15 @@ package com.example.kevin.shogigame.grid;
  */
 public class Location {
 	private int rank, file;
-	
-	/**
-     * The direction one rank up.
-     */
-    public static final int NORTH = 0;
-    
-    /**
-     * The direction one rank up and one file right.
-     */
-    public static final int NORTHEAST = 45;
-    
-    /**
-     * The direction one file left.
-     */
-    public static final int WEST = 270;
-    
-    /**
-     * The direction one rank up and one file left.
-     */
-    public static final int NORTHWEST = 315;
-    
-    /**
-     * The direction one rank right.
-     */
-    public static final int EAST = 90;
-    
-    /**
-     * The direction one rank down and one rank right.
-     */
-    public static final int SOUTHEAST = 135;
-    
-    /**
-     * The direction one rank down.
-     */
-    public static final int SOUTH = 180;
-    
-    /**
-     * The direction one rank down and one file left.
-     */
-    public static final int SOUTHWEST = 225;
+
+    public static final int UP = 0;
+    public static final int UPRIGHT = 45;
+	public static final int RIGHT = 90;
+	public static final int DOWNRIGHT = 135;
+	public static final int DOWN = 180;
+	public static final int DOWNLEFT = 225;
+    public static final int LEFT = 270;
+    public static final int UPLEFT = 315;
 	
     /**
      * Create a new location.
@@ -80,21 +49,21 @@ public class Location {
 		direction %= 360;
 		
 		switch(direction) {
-			case NORTH:
+			case UP:
 				return new Location(rank + 1, file);
-			case NORTHEAST:
+			case UPRIGHT:
 				return new Location(rank + 1, file + 1);
-			case NORTHWEST:
+			case UPLEFT:
 				return new Location(rank + 1, file - 1);
-			case WEST:
+			case LEFT:
 				return new Location(rank, file - 1);
-			case EAST:
+			case RIGHT:
 				return new Location(rank, file + 1);
-			case SOUTHEAST:
+			case DOWNRIGHT:
 				return new Location(rank - 1, file + 1);
-			case SOUTH:
+			case DOWN:
 				return new Location(rank - 1, file);
-			case SOUTHWEST:
+			case DOWNLEFT:
 				return new Location(rank - 1, file - 1);
 			default:
 				throw new IllegalArgumentException("" + direction + " is not a" + " multiple of 45 degrees.");
